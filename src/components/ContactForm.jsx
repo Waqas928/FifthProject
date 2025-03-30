@@ -16,7 +16,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="bg-white p-4 rounded-lg w-full max-w-md">
+    <div className=" p-4 rounded-lg w-full max-w-md">
       <h2 className="text-2xl font-bold text-gray-800 text-center">Contact Us</h2>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div>

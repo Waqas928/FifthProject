@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function ContactDetails({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-gray-400 bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
+    <div className="fixed inset-0  bg-opacity-0 backdrop-blur-sm flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg relative max-w-sm w-full">
         <h3 className="text-xl font-semibold text-gray-800">Contact Info</h3>
-        
+
         <p className="mt-2 text-gray-600">
           Email:{" "}
           <a href="mailto:mwbkkj@gmail.com" className="text-blue-500 hover:underline">
@@ -30,7 +30,7 @@ function ContactDetails({ isOpen, onClose }) {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            https://www.linkedin.com/in...
+            View Profile
           </a>
         </p>
 

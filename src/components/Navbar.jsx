@@ -92,6 +92,11 @@ function Navbar() {
                 Downloads
               </Link>
             </li>
+            <li className="hidden md:block">
+              <Link to="/doctors" className="text-white hover:text-gray-300 text-sm sm:text-base">
+                Doctors
+              </Link>
+            </li>
             <li className="hidden lg:block relative group">
               <button className="text-white hover:text-gray-300 focus:outline-none flex items-center text-sm sm:text-base">
                 Support <span className="ml-1 text-[8px] sm:text-[10px]">▼</span>
@@ -131,6 +136,9 @@ function Navbar() {
             </Link>
             <Link to="/downloads" className="text-white hover:text-gray-300 text-sm py-2">
               Downloads
+            </Link>
+            <Link to="/doctors" className="text-white hover:text-gray-300 text-sm py-2">
+              Doctors
             </Link>
             <button onClick={openForm} className="text-white hover:text-gray-300 text-sm py-2">
               Contact Form

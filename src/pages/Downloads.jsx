@@ -2,10 +2,10 @@ import React from 'react';
 
 function Downloads() {
     const downloadFiles = [
-        { name: "Patient Registration Form", link: "/public/Downloads/patient-form.docx" },
-        { name: "Hospital Visitor Guidelines", link: "/public/downloads/visitor-guidelines.docx" },
-        { name: "Doctor OPD Schedule", link: "/public/downloads/opd-schedule.docx" },
-        { name: "Vaccination Schedule", link: "/public/downloads/vaccination-schedule.docx" }
+        { name: "Patient Registration Form", link: "/static/Downloads/patient-form.docx" },
+        { name: "Hospital Visitor Guidelines", link: "/static/downloads/visitor-guidelines.docx" },
+        { name: "Doctor OPD Schedule", link: "/static/downloads/opd-schedule.docx" },
+        { name: "Vaccination Schedule", link: "/static/downloads/vaccination-schedule.docx" }
     ];
 
     return (

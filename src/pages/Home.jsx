@@ -32,19 +32,19 @@ function Home() {
         <img
           src={images[currentImageIndex]}
           alt={`Hospital Image ${currentImageIndex + 1}`}
-          className="w-full h-64 sm:h-80 md:h-80 lg:h-120 object-cover rounded-lg shadow-md cursor-pointer"
+          className="w-full h-48 sm:h-64 md:h-72 lg:h-80 object-cover rounded-lg shadow-md cursor-pointer"
           loading="lazy"
         />
         <button
           onClick={handlePrev}
-          className="absolute top-1/2 left-2 transform -translate-y-1/2 text-4xl text-white hover:text-gray-600 focus:outline-none"
+          className="absolute top-1/2 left-2 transform -translate-y-1/2 text-2xl sm:text-3xl lg:text-4xl text-white hover:text-gray-300 focus:outline-none transition-colors"
           aria-label="Previous Image"
         >
           &lt;
         </button>
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-2 transform -translate-y-1/2 text-4xl text-white hover:text-gray-600 focus:outline-none"
+          className="absolute top-1/2 right-2 transform -translate-y-1/2 text-2xl sm:text-3xl lg:text-4xl text-white hover:text-gray-300 focus:outline-none transition-colors"
           aria-label="Next Image"
         >
           &gt;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Downloads() {
     const downloadFiles = [
-        { name: "Patient Registration Form", link: "src/assets/static/Downloads/patient-form.docx" },
+        { name: "Patient Registration Form", link: "src/assets/static/downloads/patient-form.docx" },
         { name: "Hospital Visitor Guidelines", link: "src/assets/static/downloads/visitor-guidelines.docx" },
         { name: "Doctor OPD Schedule", link: "src/assets/static/downloads/opd-schedule.docx" },
         { name: "Vaccination Schedule", link: "src/assets/static/downloads/vaccination-schedule.docx" }
